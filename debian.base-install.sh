@@ -8,6 +8,7 @@ install_basics() {
     sudo nala install git
     sudo nala install neofetch
     sudo nala install glances
+    sudo nala install curl
 }
 
 install_ufw() {
