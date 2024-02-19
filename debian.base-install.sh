@@ -15,6 +15,8 @@ install_ufw() {
     sudo nala install ufw
     sudo ufw allow 22/tcp comment "SSH"
 
+    sudo ufw enable
+
     sudo systemctl start ufw
     sudo systemctl enable ufw
 }
