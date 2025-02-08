@@ -5,10 +5,7 @@ install_nala() {
 }
 
 install_basics() {
-    sudo nala install git
-    sudo nala install neofetch
-    sudo nala install glances
-    sudo nala install curl
+    sudo nala install git neofetch btop curl micro
 }
 
 install_ufw() {
